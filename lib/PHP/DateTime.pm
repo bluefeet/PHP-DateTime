@@ -39,7 +39,7 @@ use Time::Timezone qw();
 use Time::HiRes qw();
 use Time::Local qw();
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 my $days_short   = [qw( Sun Mon Tue Wed Thr Fri Sat )];
 my $days_long    = [qw( Sunday Monday Tuesday Wednesday Thursday Friday Saturday )];
@@ -167,7 +167,7 @@ L<http://php.net/manual/en/function.mktime.php>
 
 sub mktime {
     # hour, minute, second, month, day, year, is_dst
-    my $times = [ ( localtime(time) )[2,1,0,4,3,5,8] ];
+    my $times = [ ( localtime(time) )[2,1,0,4,3,5] ];
     $times->[3]++;
     $times->[5]+=1900;
 
@@ -178,8 +178,7 @@ sub mktime {
 
     $times->[3]--;
     $times->[5]-=1900;
-    my $esecs = Time::Local::timelocal( (@$times)[2,1,0,3,4,5] );
-    if($times->[8]){ $esecs+=60; }
+    my $esecs = Time::Local::timelocal( (@$times)[2,1,0,4,3,5] );
 
     return $esecs;
 }

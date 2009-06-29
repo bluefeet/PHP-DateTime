@@ -1,5 +1,8 @@
 Revision history for Perl extension PHP::DateTime.
 
+0.05 : 2009-06-29
+ - Fix significant bug in mktime.
+
 0.04 : 2008-03-16
  - Use Module::Install.
  - Require dependent module in build.
