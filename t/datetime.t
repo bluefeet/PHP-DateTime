@@ -1,9 +1,9 @@
 use strict;
 use warnings;
 
-use Test::More tests => 7;
+use Test::More;
 
-use_ok( 'PHP::DateTime' );
+use PHP::DateTime;
 
 ok( checkdate(2,12,2001), 'Check a valid date.' );
 ok( !checkdate(13,14,2002), 'Check an invalid date.' );
@@ -45,3 +45,4 @@ is(
     'The function mktime() returned the correct time.'
 );
 
+done_testing;

@@ -192,10 +192,10 @@ L<http://php.net/manual/en/ref.datetime.php>
 
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeet@cpan.org>
+Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
