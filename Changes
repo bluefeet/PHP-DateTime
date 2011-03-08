@@ -1,6 +1,8 @@
 Revision history for Perl extension PHP::DateTime.
 
 {{$NEXT}}
+
+0.06      2011-03-08
  - Very minor doc and release cleanup.
 
 0.05 : 2009-06-29
