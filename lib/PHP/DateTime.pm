@@ -1,5 +1,7 @@
 package PHP::DateTime;
 
+$PHP::DateTime::VERSION = '0.06';
+
 =head1 NAME
 
 PHP::DateTime - Clone of PHP's date and time functions.
