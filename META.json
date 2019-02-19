@@ -45,7 +45,8 @@
             "Time::DaysInMonth" : "99.1117",
             "Time::HiRes" : "1.9721",
             "Time::Local" : "1.2000",
-            "Time::Timezone" : "2006.0814"
+            "Time::Timezone" : "2006.0814",
+            "perl" : "5.008001"
          }
       },
       "test" : {
