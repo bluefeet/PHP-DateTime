@@ -1,5 +1,7 @@
 package PHP::DateTime;
-
+use 5.008001;
+use strict;
+use warnings;
 our $VERSION = '0.07';
 
 =head1 NAME
@@ -32,9 +34,6 @@ Much like PHP this module gratuitously exports all its functions upon a use().
 Neat, eh?
 
 =cut
-
-use strict;
-use warnings;
 
 use Time::DaysInMonth qw();
 use Time::Timezone qw();
