@@ -42,8 +42,6 @@ use Time::Timezone qw();
 use Time::HiRes qw();
 use Time::Local qw();
 
-our $VERSION = '0.08';
-
 my $days_short   = [qw( Sun Mon Tue Wed Thr Fri Sat )];
 my $days_long    = [qw( Sunday Monday Tuesday Wednesday Thursday Friday Saturday )];
 my $months_short = [qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec )];
