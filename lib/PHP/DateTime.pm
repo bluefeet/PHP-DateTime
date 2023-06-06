@@ -4,6 +4,8 @@ use strict;
 use warnings;
 our $VERSION = '0.07';
 
+=encoding utf8
+
 =head1 NAME
 
 PHP::DateTime - Clone of PHP's date and time functions.
@@ -193,10 +195,11 @@ L<http://php.net/manual/en/ref.datetime.php>
 
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeet@gmail.com>
+    Aran Clary Deltac <bluefeet@gmail.com>
 
 =head1 LICENSE
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
+=cut
