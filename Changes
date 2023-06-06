@@ -2,6 +2,8 @@ Revision history for Perl extension PHP-DateTime.
 
 {{$NEXT}}
 
+0.08 2023-06-06T16:52:04Z
+
  - Require perl 5.8.1.
  - Simplify VERSION declarations.
 

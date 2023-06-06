@@ -2,7 +2,7 @@ package PHP::DateTime;
 use 5.008001;
 use strict;
 use warnings;
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 =encoding utf8
 
@@ -42,7 +42,7 @@ use Time::Timezone qw();
 use Time::HiRes qw();
 use Time::Local qw();
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 my $days_short   = [qw( Sun Mon Tue Wed Thr Fri Sat )];
 my $days_long    = [qw( Sunday Monday Tuesday Wednesday Thursday Friday Saturday )];
